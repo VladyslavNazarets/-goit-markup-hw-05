@@ -84,6 +84,7 @@ text-decoration:none;
 margin-left: 0px;
 display: block;
 margin-right: 93px;
+transition: transform 250ms var(--taming-fix);
 }
 .logo-blue{ 
 color: var(--accent-color);
@@ -113,14 +114,14 @@ display: block;
     display: block;
     left: 0;
     bottom: 0;
-     width: 100%;
+    width: 100%;
     height: 4px;
     background-size: cover;
     background-color: var(--accent-color);
     border-radius: 2px;
-    padding: -1px;
+    padding-bottom: -1px;
     transform: scaleX(1);
-    transition: 250ms var(--taming-fix);
+    transition: transition 250ms var(--taming-fix);
 }
 
 .flex{
@@ -152,6 +153,7 @@ text-decoration:none;
 display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
+transition: transform 250ms var(--taming-fix);
 }
 .auth-nav:hover,
 .auth-nav:focus{
@@ -178,6 +180,7 @@ padding-bottom: 32px;
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    transition: transform 250ms var(--taming-fix);
 }
 .tel:hover ,
 .tel:focus{
@@ -266,6 +269,7 @@ padding-left: 32px;
 padding-right: 32px;
 margin-top: 40px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+transition: transform 250ms var(--taming-fix);
 
 
 }
@@ -301,6 +305,7 @@ top: 1058px;
 .fon-help{
     position: relative;
     display: block;
+    transition: transform 250ms var(--taming-fix);
 }
 .sections-fon{
 position: absolute;
@@ -459,6 +464,7 @@ fill: var(--primari-text-color);
 
 .icon-insta{
 fill: var(--color-icon-insta);
+transition: transform 250ms var(--taming-fix);
 
 }
 .section-clients{
@@ -501,6 +507,7 @@ fill: #188CE8;
 
 .clients-icon{
     fill: var(--color-icon-insta);
+    transition: transform 250ms var(--taming-fix);
 }
 .clients-board{
 font-family: Roboto;
@@ -522,6 +529,7 @@ margin-bottom: 50px;
 
 .footer-mail{
     margin-bottom: 9px;
+    
 }
 .footer-mail, .footer-tel{
    color: var(--color-footer-adress);
@@ -530,6 +538,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 text-decoration:none;
 font-style: normal ;
+transition: transform 250ms var(--taming-fix);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -560,6 +569,7 @@ letter-spacing: 0.03em;
 text-decoration:none;
 font-style: normal;
 margin-bottom: 9px;
+transition: transform 250ms var(--taming-fix);
 
 }
 .footer-adress:hover
@@ -623,6 +633,7 @@ padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 22px;
 padding-right: 22px;
+transition: transform 250ms var(--taming-fix);
 
 }
 .button-portfolio:hover,
@@ -682,10 +693,12 @@ gap: 8px;
 .portfolio-top-wrap{
     position: relative;
     overflow: hidden;
+    transition: transform 250ms var(--taming-fix);
 }
 .services-title{
     display: block;
     text-decoration: none;
+    transition: transform 250ms var(--taming-fix);
 }
 .services-title:hover,
 .services-title:focus{
@@ -752,6 +765,7 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 .icon-footer{
    fill: var(--primari-text-color);
+   transition: transform 250ms var(--taming-fix);
 }
 .right{
     
@@ -770,6 +784,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
 margin-bottom: 20px;
+transition: transform 250ms var(--taming-fix);
 }
 
 .backdrop{
@@ -778,7 +793,7 @@ margin-bottom: 20px;
     height: 100%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: opacity 250ms linear, visibility 250ms linear;
+    transition: transform 250ms var(--taming-fix), visibility 250ms var(--taming-fix);
 
 }
 .modal{
@@ -791,7 +806,7 @@ margin-bottom: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scaleY(1);
-    transition: transform 300ms linear;
+    transition: transform 250ms var(--taming-fix);
 }
 .backdrop .is-hidden .modal{
     transform: translate(-50%, -50%)  scaleY(0);
@@ -810,6 +825,10 @@ margin-bottom: 20px;
     justify-content: center;
     padding: 0%;
     cursor: pointer;
+    transition: transform 250ms var(--taming-fix);
+}
+.modal-close{
+    transition: transform 250ms var(--taming-fix); 
 }
 .is-hidden{
     opacity: 0;
