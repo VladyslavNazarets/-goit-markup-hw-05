@@ -84,7 +84,7 @@ text-decoration:none;
 margin-left: 0px;
 display: block;
 margin-right: 93px;
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix);
 }
 .logo-blue{ 
 color: var(--accent-color);
@@ -103,9 +103,8 @@ letter-spacing: 0.02em;
 text-decoration:none;
 padding-top: 32px;
 padding-bottom: 32px;
-
 display: block;
-
+transition: color 250ms var(--taming-fix);
 }
 
  .link.active::after{
@@ -119,9 +118,9 @@ display: block;
     background-size: cover;
     background-color: var(--accent-color);
     border-radius: 2px;
-    padding-bottom: -1px;
+    margin-bottom: -1px;
     transform: scaleX(1);
-    transition: transition 250ms var(--taming-fix);
+    transition: color 250ms var(--taming-fix);
 }
 
 .flex{
@@ -153,7 +152,7 @@ text-decoration:none;
 display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix);
 }
 .auth-nav:hover,
 .auth-nav:focus{
@@ -180,7 +179,7 @@ transition: transform 250ms var(--taming-fix);
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: transform 250ms var(--taming-fix);
+    transition: color 250ms var(--taming-fix);
 }
 .tel:hover ,
 .tel:focus{
@@ -269,7 +268,7 @@ padding-left: 32px;
 padding-right: 32px;
 margin-top: 40px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix) , background-color 250ms var(--taming-fix);
 
 
 }
@@ -305,7 +304,7 @@ top: 1058px;
 .fon-help{
     position: relative;
     display: block;
-    transition: transform 250ms var(--taming-fix);
+   
 }
 .sections-fon{
 position: absolute;
@@ -464,7 +463,7 @@ fill: var(--primari-text-color);
 
 .icon-insta{
 fill: var(--color-icon-insta);
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix);
 
 }
 .section-clients{
@@ -507,7 +506,7 @@ fill: #188CE8;
 
 .clients-icon{
     fill: var(--color-icon-insta);
-    transition: transform 250ms var(--taming-fix);
+    transition: color 250ms var(--taming-fix);
 }
 .clients-board{
 font-family: Roboto;
@@ -538,7 +537,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 text-decoration:none;
 font-style: normal ;
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix) , backgroung-color 250ms var(--taming-fix);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -569,7 +568,7 @@ letter-spacing: 0.03em;
 text-decoration:none;
 font-style: normal;
 margin-bottom: 9px;
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix);
 
 }
 .footer-adress:hover
@@ -633,7 +632,7 @@ padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 22px;
 padding-right: 22px;
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix), backgroung-color 250ms var(--taming-fix);
 
 }
 .button-portfolio:hover,
@@ -686,14 +685,14 @@ gap: 8px;
     padding-right: 24px;
     height: 100%;
     transform: translateY(100%);
-    transition: 250ms var(--taming-fix);
+    transition: transform 250ms var(--taming-fix);
     overflow: auto;
 }
 
 .portfolio-top-wrap{
     position: relative;
     overflow: hidden;
-    transition: transform 250ms var(--taming-fix);
+    transition: box-shadow 250ms var(--taming-fix);
 }
 .services-title{
     display: block;
@@ -765,7 +764,7 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 .icon-footer{
    fill: var(--primari-text-color);
-   transition: transform 250ms var(--taming-fix);
+   transition: color 250ms var(--taming-fix);
 }
 .right{
     
@@ -784,7 +783,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
 margin-bottom: 20px;
-transition: transform 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix);
 }
 
 .backdrop{
