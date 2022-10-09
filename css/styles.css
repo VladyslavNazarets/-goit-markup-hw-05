@@ -160,15 +160,12 @@ transition: color 250ms var(--taming-fix);
  }
 
  .auth-icon{
-    fill: var(--title-info-kolor);
+    fill: currentColor;
     margin-right: 10px;
     
  }
 
-.auth-nav:hover .auth-icon,
-.auth-nav:focus .auth-icon{
-    fill: var(--accent-color);
- }
+
 .tel{
     color: var(--title-info-kolor);
     text-decoration:none;
@@ -185,12 +182,9 @@ transition: color 250ms var(--taming-fix);
 .tel:focus{
     color: var(--accent-color);
 }
-.tel:hover .tel-icon,
-.tel:focus .tel-icon{
-    fill: var(--accent-color);
-}
+
 .tel-icon{
-    fill: var(--title-info-kolor);
+    fill: currentColor;
     margin-right: 10px;
     
 }
@@ -268,7 +262,7 @@ padding-left: 32px;
 padding-right: 32px;
 margin-top: 40px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-transition: color 250ms var(--taming-fix) , background-color 250ms var(--taming-fix);
+transition: background-color 250ms var(--taming-fix);
 
 
 }
@@ -450,20 +444,19 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
     justify-content: center;
   background-position: center;
+ color: var(--color-icon-insta);
+ transition: color 250ms var(--taming-fix), background-color 250ms var(--taming-fix)
 }
 .team-item:hover,
 .team-item:focus{
-    background-color: var(--accent-color);  
+    background-color: var(--accent-color);
+    color: var(--primari-text-color);  
 }
 
-.team-item:hover .icon-insta,
-.team-item:focus .icon-insta{
-fill: var(--primari-text-color);
-}
+
 
 .icon-insta{
-fill: var(--color-icon-insta);
-transition: color 250ms var(--taming-fix);
+fill: currentColor;
 
 }
 .section-clients{
@@ -481,31 +474,33 @@ transition: color 250ms var(--taming-fix);
  width: 170px;
 height: 92px;
 border: 1px solid var(--color-icon-insta);
+color: var(--color-icon-insta);
 border-radius: 4px;
 display: flex;
 justify-content: center;
 align-items: center;
 cursor: pointer;
 outline-color: transparent;
+transition: border-color 250ms var(--taming-fix), color color 250ms var(--taming-fix);
 }
 
 
-.clients-teg:hover .clients-icon,
+/* .clients-teg:hover .clients-icon,
 .clients-teg:focus .clients-icon{
   fill: var(--accent-color);
   
-}
+} */
 .clients-teg:hover,
 .clients-teg:focus{
 border: 1px solid var(--accent-color);
 border-radius: 4px;
 border-color: var(--accent-color);
-fill: #188CE8;
+color: var(--accent-color);
 
 }
 
 .clients-icon{
-    fill: var(--color-icon-insta);
+    fill: currentColor;
     transition: color 250ms var(--taming-fix);
 }
 .clients-board{
@@ -516,6 +511,7 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 margin-bottom: 50px;
  text-align: center;
+
 
 }
 .clients-block{
@@ -537,7 +533,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 text-decoration:none;
 font-style: normal ;
-transition: color 250ms var(--taming-fix) , backgroung-color 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -552,12 +548,8 @@ font-style: normal ;
  .footer-mail:focus{
  
     color: var(--accent-color);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-decoration:none;
-    font-style: normal ;
-}
+ }
+  
 
 
 .footer-adress{
@@ -632,7 +624,7 @@ padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 22px;
 padding-right: 22px;
-transition: color 250ms var(--taming-fix), backgroung-color 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix), backgroung-color 250ms var(--taming-fix), box-shadow 250ms var(--taming-fix);
 
 }
 .button-portfolio:hover,
@@ -692,12 +684,12 @@ gap: 8px;
 .portfolio-top-wrap{
     position: relative;
     overflow: hidden;
-    transition: box-shadow 250ms var(--taming-fix);
+   
 }
 .services-title{
     display: block;
     text-decoration: none;
-    transition: transform 250ms var(--taming-fix);
+    transition: transform 250ms var(--taming-fix), box-shadow 250ms var(--taming-fix);
 }
 .services-title:hover,
 .services-title:focus{
@@ -756,6 +748,8 @@ align-items: center;
 justify-content: center;
 background-position: center;
 background-color: rgba(255, 255, 255, 0.1);
+color: var(--primari-text-color);
+transition: background-color 250ms var(--taming-fix);
 }
 .icon:hover,
 .icon:focus{
@@ -763,7 +757,7 @@ background-color: rgba(255, 255, 255, 0.1);
     
 }
 .icon-footer{
-   fill: var(--primari-text-color);
+   fill: currentColor;
    transition: color 250ms var(--taming-fix);
 }
 .right{
@@ -792,7 +786,7 @@ transition: color 250ms var(--taming-fix);
     height: 100%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: transform 250ms var(--taming-fix), visibility 250ms var(--taming-fix);
+    transition: opacity 250ms var(--taming-fix), visibility 250ms var(--taming-fix);
 
 }
 .modal{
