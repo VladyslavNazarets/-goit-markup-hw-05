@@ -616,7 +616,7 @@ padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 22px;
 padding-right: 22px;
-transition: color 250ms var(--taming-fix), backgroung-color 250ms var(--taming-fix), box-shadow 250ms var(--taming-fix);
+transition: color 250ms var(--taming-fix), background-color 250ms var(--taming-fix), box-shadow 250ms var(--taming-fix);
 
 }
 .button-portfolio:hover,
@@ -652,7 +652,8 @@ gap: 8px;
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);
 }
-.portfolio-block:hover .services-top{
+.services-dec:hover .services-top,
+.services-dec:focus .services-top{
     transform: translateY(0%);
 
 }
@@ -795,8 +796,6 @@ transition: color 250ms var(--taming-fix);
 .modal{
     width: 528px;
     height: 581px;
-    left: 536px;
-    top: 221px;
     background-color: var(--primari-text-color);
     position: absolute;
     top: 50%;
